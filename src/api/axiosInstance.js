@@ -1,9 +1,8 @@
- 
 // src/api/axiosInstance.js
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000/api", // change this to your backend base URL
+  baseURL: "https://product-review-app-backend-production.up.railway.app/api", // change this to your backend base URL
   headers: {
     "Content-Type": "application/json",
   },
